@@ -6,3 +6,7 @@ module.exports.about = function(req, res){ res.render('generic-text', {
 	 accumsan interdum dui. Pellentesque sollicitudin volutpat ullamcorper.'
 }); 
 };
+
+module.exports.angularApp = function(req, res){
+  res.render('layout', { title: 'Loc8r' });
+};
